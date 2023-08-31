@@ -1,0 +1,153 @@
+.header {
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: black;
+    height: auto;
+    padding:10px;
+}
+
+.banner {
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: black;
+    height: 200px;
+    padding:10px;
+}
+
+.content {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: auto;
+    padding:10px;
+}
+
+.facility {
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: black;
+    height: auto;
+    padding:10px;
+}
+
+.form {
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-width: 0px;
+    border-color: black;
+    height: auto;
+    padding:10px;
+}
+
+.footer {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    height: 70px;
+    padding:10px
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    height: auto;
+    }
+
+.box {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 120px;
+    background-color: yellow;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    justify-content: center;
+}
+#logo {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-style: none;
+}
+.box:first-child {
+    margin-right: auto;
+}
+
+.portrait {
+    display: flex;
+    margin-left:30px;
+    margin-right:30px;
+    height: 150px;
+    width: 150px;
+}
+
+.captioning {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caption {
+    display: flex;
+    justify-content: center;
+}
+
+#flex-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#isian {
+    border-style: none;
+}
+
+#resultinput {
+    background-color: yellow;
+}
+
+.formbox {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 450px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    justify-content: center;
+}
+
+img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+h1, a, form {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+
+#submitbutton {
+    width: 100%;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+    flex-direction: column;
+    }
+
+    .formbox {
+        width: 100%;
+    }
+}

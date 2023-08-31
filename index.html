@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<title>Bootcamper</title>
+<head>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="flex-container">
+      <div class="box" id="logo">
+        <a href=""
+          ><img src="img/logo.png" width="60px" height="60px" alt="" style="border-radius: 50%"
+        /></a>
+      </div>
+      <div class="box"><a href="">Home</a></div>
+      <div class="box"><a href="profile.html">Our Profile</a></div>
+      <div class="box"><a href="">Achievements</a></div>
+      <div class="box"><a href="#redirectmsg">Message Us</a></div>
+    </div>
+  </div>
+
+  <div class="banner" style="background-image: url(img/banner.png); background-size: 100%;">
+    <div class="flex-container">
+      <h1>Welcome to the website!</h1>
+    </div>
+  </div>
+
+  <div class="facility">
+    <h1>Our Facilitation</h1>
+    <div class="flex-container">
+      <div class="captioning">
+        <div class="portrait"><img src="img/instructor.png" style="border-radius: 50%; max-width: 100%;"></div>
+        <div class="caption"><p>Instructor</p></div>
+      </div>
+      <div class="captioning">
+        <div class="portrait"><img src="img/tutoring.png" style="border-radius: 50%;max-width: 100%;"></div>
+        <div class="caption"><p>Online Tutoring</p></div>
+      </div>
+      <div class="captioning">
+        <div class="portrait"><img src="img/certificate.png" style="border-radius: 50%;max-width: 100%;"></div>
+        <div class="caption"><p>Certificate</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="form" id="redirectmsg">
+    <h1>Message Us</h1>
+    <div class="flex-container" id="flex-form">
+      <div class="formbox" id="isian">
+        <div>
+          <div>
+            <label for="nama">Name</label>
+            <input type="text" name="nama" required>
+          </div>
+          <br>
+          <div>
+            <label for="lahir">Birthdate</label>
+            <input type="date" name="lahir" required>
+          </div>
+          <br>
+          <div>
+            <label for="gender">Gender</label>
+            <tr>
+              <td><input type="radio" name="gender" value="Pria">Pria</td>
+              <td><input type="radio" name="gender" value="Wanita">Wanita</td>
+          </tr>
+          </div>
+          <br>
+          <div>
+            <label for="pesan" style="vertical-align: top;">Message</label>
+            <textarea name="pesan" rows="5" required></textarea>
+          </div>
+          <br>
+          <div>
+            <button id="submitbutton">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="formbox" id="resultinput">
+        <div>
+          <div> <b>Your Data</b></div>
+          <div>
+            <p id="hasilnama"></p>
+          </div>
+          <div>
+            <p id="hasillahir"></p>
+          </div>
+          <div>
+            <p id="hasilgender"></p>
+          </div>
+          <div>
+            <p id="hasilpesan"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="js/script.js"></script> 
